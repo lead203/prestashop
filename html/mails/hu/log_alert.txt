@@ -1,0 +1,15 @@
+ 
+
+{shop_url}
+
+Szia,
+
+Új riasztási üzenet mentve
+
+Figyelem: új naplóriasztást kaptál a Háttérirodádban.
+
+Ezt a Háttérirodád "Eszközök" > "Naplók" szekciójában nézheted meg.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

@@ -84,11 +84,6 @@
   </file>
   <file original="controllers/admin/AdminAttributesGroupsController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
-        <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
-        <target state="final">Виберіть колір з набору, кольорів або введіть у HTML-кольорах (напр. "lightblue", "#CC6600").</target>
-        <note>Line: 325</note>
-      </trans-unit>
       <trans-unit id="f2d1c5443636295e9720caac90ea8d93" approved="yes">
         <source>Your internal name for this attribute.</source>
         <target state="final">Ваша внутрішня назва для цього атрибуту.</target>
@@ -123,6 +118,11 @@
         <source>Save then add another value</source>
         <target state="final">Зберегти та додати інше значення</target>
         <note>Line: 576</note>
+      </trans-unit>
+      <trans-unit id="22cbf85c41427960736dc10cfec5faf4" approved="yes">
+        <source>Choose a color with the color picker, or enter an HTML color (e.g. "lightblue", "#CC6600").</source>
+        <target state="final">Виберіть колір з набору, кольорів або введіть у HTML-кольорах (напр. "lightblue", "#CC6600").</target>
+        <note>Line: 325</note>
       </trans-unit>
     </body>
   </file>
@@ -222,11 +222,6 @@
         <target state="final">Додати нове значення</target>
         <note>Line: 272</note>
       </trans-unit>
-      <trans-unit id="7aad0283b11e41230d9d1fc7372c3862" approved="yes">
-        <source>Add new feature value</source>
-        <target state="final">Додати значення характеристики</target>
-        <note>Line: 224</note>
-      </trans-unit>
     </body>
   </file>
   <file original="controllers/admin/AdminSuppliersController.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -246,16 +241,6 @@
         <target state="final">Номер мобільного телефону постачальника.</target>
         <note>Line: 183</note>
       </trans-unit>
-      <trans-unit id="afd7431f75b5801226c9ee37acc1a504" approved="yes">
-        <source>Will appear in the list of suppliers.</source>
-        <target state="final">З'явиться в списку постачальників.</target>
-        <note>Line: 163</note>
-      </trans-unit>
-      <trans-unit id="e865605842d16d0d11c266c731e00507" approved="yes">
-        <source>Upload a supplier logo from your computer.</source>
-        <target state="final">Завантажте логотип постачальника з вашого комп'ютера.</target>
-        <note>Line: 256</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/Core/Grid/Definition/Factory/ProductGridDefinitionFactory.php" source-language="en" target-language="uk" datatype="plaintext">
@@ -273,6 +258,15 @@
         <source>Create a new product: CTRL+P</source>
         <target state="final">Створити новий товар: CTRL+P</target>
         <note>Line: 388</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/Catalog/FeatureController.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="7aad0283b11e41230d9d1fc7372c3862" approved="yes">
+        <source>Add new feature value</source>
+        <target state="final">Додати значення характеристики</target>
+        <note>Line: 210</note>
       </trans-unit>
     </body>
   </file>
@@ -346,7 +340,7 @@
       <trans-unit id="16a5534d559007de7e8f5b4f17112203" approved="yes">
         <source>Leave empty to disable</source>
         <target state="final">Залиште порожнім для відключення</target>
-        <note>Line: 204</note>
+        <note>Line: 209</note>
       </trans-unit>
       <trans-unit id="e63e2ba42470a41ba75e0d7ea35a410f" approved="yes">
         <source>Combine several attributes, e.g.: "Size: all", "Color: red".</source>
@@ -357,11 +351,6 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Product/ProductSeo.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      <trans-unit id="8533d8d42f2c7ef3078797984ea14675" approved="yes">
-        <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
-        <target state="final">Це опис сторінки для пошукових систем. Вам необхідно вказати короткий вираз (до 160 символів включно з пробілами)</target>
-        <note>Line: 137</note>
-      </trans-unit>
       <trans-unit id="26511e4120f7b4f3135a21b9f35efed8" approved="yes">
         <source>To which product the page should redirect?</source>
         <target state="final">На який товар має вести сторінка?</target>
@@ -382,30 +371,25 @@
         <target state="final">Якщо заголовок відрізняється від назви товару, введіть його тут.</target>
         <note>Line: 101</note>
       </trans-unit>
-      <trans-unit id="b0ea2bd9df4b8ee746b4e5fd28503851" approved="yes">
-        <source>Public title for the product's page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the left of the field.</source>
-        <target state="final">Загальновживана назва сторінки товарів для пошукових систем. Залиште порожнім для використання назви товару. Кількість символів, що залишаються, відображається ліворуч.</target>
-        <note>Line: 112</note>
-      </trans-unit>
       <trans-unit id="5f99bb8ecd940f311cb66fadfc467a2b" approved="yes">
         <source>To have a different description than your product summary in search results pages, write it here.</source>
         <target state="final">Щоб відображати інший опис замість того, що відображається на сторінці пошукових результатів, напишіть його тут.</target>
         <note>Line: 126</note>
       </trans-unit>
-      <trans-unit id="96bacc9c71fc8b7763f985fed3dfc545" approved="yes">
-        <source>To which product should the page redirect?</source>
-        <target state="final">На який товар має перенаправляти сторінка?</target>
-        <note>Line: 186</note>
-      </trans-unit>
-      <trans-unit id="6dd1254fcdbcc7b3fd459617adad9289" approved="yes">
-        <source>To which category should the page redirect?</source>
-        <target state="final">На яку категорію має перенаправляти сторінка?</target>
-        <note>Line: 188</note>
-      </trans-unit>
       <trans-unit id="1b9648d6a32243bb7003ae8046dc7c1a" approved="yes">
         <source>By default, the main category will be used if no category is selected.</source>
         <target state="final">За замовчуванням, якщо не вибрано жодної категорії, буде використовуватися головна категорія.</target>
         <note>Line: 189</note>
+      </trans-unit>
+      <trans-unit id="8533d8d42f2c7ef3078797984ea14675" approved="yes">
+        <source>This description will appear in search engines. You need a single sentence, shorter than 160 characters (including spaces)</source>
+        <target state="final">Це опис сторінки для пошукових систем. Вам необхідно вказати короткий вираз (до 160 символів включно з пробілами)</target>
+        <note>Line: 137</note>
+      </trans-unit>
+      <trans-unit id="b0ea2bd9df4b8ee746b4e5fd28503851" approved="yes">
+        <source>Public title for the product's page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the left of the field.</source>
+        <target state="final">Загальновживана назва сторінки товарів для пошукових систем. Залиште порожнім для використання назви товару. Кількість символів, що залишаються, відображається ліворуч.</target>
+        <note>Line: 112</note>
       </trans-unit>
     </body>
   </file>
@@ -433,6 +417,15 @@
         <source>If the price of this combination is different from the initial retail price, enter the value of the impact (negative or positive).</source>
         <target state="final">Якщо ціна цієї комбінації відрізняється від початкової роздрібної ціни, введіть значення впливу (негативне чи позитивне).</target>
         <note>Line: 123</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Combination/LowStockThresholdType.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="1f24923e0351fff041635c7064d7d94c" approved="yes">
+        <source><![CDATA[The email will be sent to all users who have access to the Stock page. To modify permissions, go to [1]Advanced Parameters > Team[/1].]]></source>
+        <target state="final"><![CDATA[Електронний лист буде надіслано всім користувачам, які мають доступ до сторінки Складу. Щоб змінити дозволи, перейдіть до [1]Розширені параметри > Співробітники[/1].]]></target>
+        <note>Line: 65</note>
       </trans-unit>
     </body>
   </file>
@@ -501,7 +494,7 @@
       <trans-unit id="dfeaf70424e17fcd26f016ace18f2139" approved="yes">
         <source>Indicate the price for a single unit of the product. For instance, if you're selling fabrics, it would be the price per meter.</source>
         <target state="final">Вкажіть ціну за одиницю товару. Наприклад, якщо ви продаєте тканини, це буде ціна за метр.</target>
-        <note>Line: 129</note>
+        <note>Line: 122</note>
       </trans-unit>
     </body>
   </file>
@@ -546,29 +539,10 @@
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/SEO/SEOType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      <trans-unit id="b51716b6494f24132f3543c516d59742" approved="yes">
-        <source>Public title for the product page, and for search engines. Leave blank to use the product name. The number of remaining characters is displayed to the right of the field.</source>
-        <target state="final">Публічна назва для сторінки товару та для пошукових систем. Залиште поле порожнім, щоб використовувати назву товару. Кількість доступних символів відображається праворуч від поля.</target>
-        <note>Line: 117</note>
-      </trans-unit>
-      <trans-unit id="390348fb4642f64089e6e9ee71f25a7c" approved="yes">
-        <source>This description will appear in search engines. It should be a single sentence, shorter than 160 characters (including spaces).</source>
-        <target state="final">Цей опис з'явиться в пошукових системах. Це має бути простий короткий вираз, до 160 символів (включаючи пробіли).</target>
-        <note>Line: 146</note>
-      </trans-unit>
       <trans-unit id="a132c5ad0de6c917b5422b923608c87b" approved="yes">
         <source>Separate each tag with a comma or press the Enter key.</source>
         <target state="final">Розділіть кожен тег комою або натисніть клавішу Enter.</target>
         <note>Line: 201</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Form/Admin/Sell/Product/Stock/StockOptionsType.php" source-language="en" target-language="uk" datatype="plaintext">
-    <body>
-      <trans-unit id="1f24923e0351fff041635c7064d7d94c" approved="yes">
-        <source><![CDATA[The email will be sent to all users who have access to the Stock page. To modify permissions, go to [1]Advanced Parameters > Team[/1].]]></source>
-        <target state="final"><![CDATA[Електронний лист буде надіслано всім користувачам, які мають доступ до сторінки Складу. Щоб змінити дозволи, перейдіть до [1]Розширені параметри > Співробітники[/1].]]></target>
-        <note>Line: 79</note>
       </trans-unit>
     </body>
   </file>
@@ -578,6 +552,20 @@
         <source>Search combination</source>
         <target state="final">Шукати комбінацію</target>
         <note>Line: 104</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/Supplier/SupplierType.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="afd7431f75b5801226c9ee37acc1a504" approved="yes">
+        <source>Will appear in the list of suppliers.</source>
+        <target state="final">З'явиться в списку постачальників.</target>
+        <note>Line: 150</note>
+      </trans-unit>
+      <trans-unit id="e865605842d16d0d11c266c731e00507" approved="yes">
+        <source>Upload a supplier logo from your computer.</source>
+        <target state="final">Завантажте логотип постачальника з вашого комп'ютера.</target>
+        <note>Line: 278</note>
       </trans-unit>
     </body>
   </file>
@@ -650,11 +638,6 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_categories.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
-        <source>Search categories</source>
-        <target state="final">Пошук категорій</target>
-        <note>Line: 35</note>
-      </trans-unit>
       <trans-unit id="61010671991185f436b35030f599d327" approved="yes">
         <source>Where should the product be available on your site? The main category is where the product appears by default: this is the category which is seen in the product page's URL. Disabled categories are written in italics.</source>
         <target state="final">Де буде показано товар на сайті? Головна категорія - це типова категорія товару, її назву буде відображено в URL сторінки з товаром. Неактивні категорії показано курсивом.</target>
@@ -665,6 +648,11 @@
         <target state="final">Якщо ви хочете швидко створити нову категорію, зробіть це тут. Не забудьте потім перейти на сторінку Категорії, для заповнення необхідної інформації (опис, зображення тощо). Нова категорія не з’являтиметься автоматично в меню магазину, будь ласка ознайомтесь з довідкою щодо цього.</target>
         <note>Line: 56</note>
       </trans-unit>
+      <trans-unit id="c5abe76b24973299661ce389d1a092e1" approved="yes">
+        <source>Search categories</source>
+        <target state="final">Пошук категорій</target>
+        <note>Line: 35</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Forms/form_combination.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -673,21 +661,6 @@
         <source>Does this combination have a different price? Is it cheaper or more expensive than the default retail price?</source>
         <target state="final">Ця комбінація має іншу ціну? Вона дешевше або дорожче за стандартну роздрібну ціну?</target>
         <note>Line: 169</note>
-      </trans-unit>
-      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
-        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
-        <target state="final">Мінімальна кількість товару для купівлі (вкажіть "1", щоб вимкнути цю функцію). Наприклад, якщо вказати "3", клієнти зможуть купити товар кількістю не менш 3 штук.</target>
-        <note>Line: 104</note>
-      </trans-unit>
-      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
-        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
-        <target state="final"><![CDATA[Повідомлення буде відправлено усім хто має дозволи на керування запасами. Для редагування дозволів перейдіть [1]Додаткові налаштування > Працівники[/1]]]></target>
-        <note>Line: 146</note>
-      </trans-unit>
-      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
-        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
-        <target state="final">Цей тип коду товару специфічний для Європи й Японії, але широко використовується в Світі. Це є розширенням штрих-коду UPC: усі товари позначені штрих-кодом EAN будуть прийняті в Північній Америці.</target>
-        <note>Line: 234</note>
       </trans-unit>
     </body>
   </file>
@@ -832,6 +805,16 @@
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/combinations.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="ea8d1b4f32f86030683d8f9252c0a3e1" approved="yes">
+        <source>The minimum quantity required to buy this product (set to 1 to disable this feature). E.g.: if set to 3, customers will be able to purchase the product only if they take at least 3 in quantity.</source>
+        <target state="final">Мінімальна кількість товару для купівлі (вкажіть "1", щоб вимкнути цю функцію). Наприклад, якщо вказати "3", клієнти зможуть купити товар кількістю не менш 3 штук.</target>
+        <note>Line: 43</note>
+      </trans-unit>
+      <trans-unit id="1914ce33841a6e52c0577751d9004159" approved="yes">
+        <source><![CDATA[The email will be sent to all the users who have the right to run the stock page. To modify the permissions, go to [1]Advanced Parameters > Team[/1]]]></source>
+        <target state="final"><![CDATA[Повідомлення буде відправлено усім хто має дозволи на керування запасами. Для редагування дозволів перейдіть [1]Додаткові налаштування > Працівники[/1]]]></target>
+        <note>Line: 74</note>
+      </trans-unit>
       <trans-unit id="5f4efe2735311bfd3e5784705fb0110f" approved="yes">
         <source>Number of days this file can be accessed by customers. Set to zero for unlimited access.</source>
         <target state="final">Кількість днів поки цей файл буде доступний покупцям. Встановіть в нуль для необмеженного доступу.</target>
@@ -903,6 +886,11 @@ Comment: First tag [1][/1] is for a HTML link. Second tag [2] is an icon (no clo
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Product/ProductPage/Panels/options.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="0041a5c39ca241f883f4e0516a32d290" approved="yes">
+        <source>This type of product code is specific to Europe and Japan, but is widely used internationally. It is a superset of the UPC code: all products marked with an EAN will be accepted in North America.</source>
+        <target state="final">Цей тип коду товару специфічний для Європи й Японії, але широко використовується в Світі. Це є розширенням штрих-коду UPC: усі товари позначені штрих-кодом EAN будуть прийняті в Північній Америці.</target>
+        <note>Line: 119</note>
+      </trans-unit>
       <trans-unit id="c268a2747d5680c617c361cd505c4576" approved="yes">
         <source>MPN is used internationally to identify the Manufacturer Part Number.</source>
         <target state="final">MPN використовується на міжнародному рівні для ідентифікації  Manufacturer Part Number (номер деталі виробника).</target>

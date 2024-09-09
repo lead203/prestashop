@@ -113,7 +113,7 @@ class EmployeeCore extends ObjectModel
         'primary' => 'id_employee',
         'fields' => [
             'lastname' => ['type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 255],
-            'firstname' => ['type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => true, 'size' => 255],
+            'firstname' => ['type' => self::TYPE_STRING, 'validate' => 'isName', 'required' => false, 'size' => 255],
             'email' => ['type' => self::TYPE_STRING, 'validate' => 'isEmail', 'required' => true, 'size' => 255],
             'id_lang' => ['type' => self::TYPE_INT, 'validate' => 'isUnsignedInt', 'required' => true],
             'passwd' => ['type' => self::TYPE_STRING, 'validate' => 'isHashedPassword', 'required' => true, 'size' => 255],
@@ -306,7 +306,7 @@ class EmployeeCore extends ObjectModel
     public function getByEmail($email, $plaintextPassword = null, $activeOnly = true)
     {
         if (!Validate::isEmail($email)) {
-            die(Tools::displayError());
+            die(Tools::displayError('Email address is invalid.'));
         }
 
         $sql = new DbQuery();
@@ -359,7 +359,7 @@ class EmployeeCore extends ObjectModel
     public static function employeeExists($email)
     {
         if (!Validate::isEmail($email)) {
-            die(Tools::displayError());
+            die(Tools::displayError('Email address is invalid.'));
         }
 
         return (bool) Db::getInstance()->getValue('
@@ -379,7 +379,7 @@ class EmployeeCore extends ObjectModel
     public static function checkPassword($idEmployee, $passwordHash)
     {
         if (!Validate::isUnsignedId($idEmployee)) {
-            die(Tools::displayError());
+            die(Tools::displayError('Employee ID is invalid.'));
         }
 
         $sql = new DbQuery();

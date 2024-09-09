@@ -52,7 +52,6 @@ class MySQL extends AbstractAdapter
         $mysqlAdapter = $this->getFilteredSearchAdapter();
         $mysqlAdapter->copyFilters($this);
         $mysqlAdapter->setSelectFields(['price_min', 'MIN(price_min) as min, MAX(price_max) as max']);
-        $mysqlAdapter->setLimit(null);
         $mysqlAdapter->setOrderField('');
 
         $result = $mysqlAdapter->execute();
@@ -98,19 +97,19 @@ class MySQL extends AbstractAdapter
 
         // Process and generate all fields for the SQL query below
         $orderField = $this->computeOrderByField($filterToTableMapping);
+        $selectFields = $this->computeSelectFields($filterToTableMapping);
+        $whereConditions = $this->computeWhereConditions($filterToTableMapping);
+        $joinConditions = $this->computeJoinConditions($filterToTableMapping);
+        $groupFields = $this->computeGroupByFields($filterToTableMapping);
 
         // Now, let's build the query...
         // If this query IS the initial population (the base table), we are selecting from product table
         if ($this->getInitialPopulation() === null) {
             $referenceTable = _DB_PREFIX_ . 'product';
+        // If not, we will call this function again but for the initial population
         } else {
             $referenceTable = '(' . $this->getInitialPopulation()->getQuery() . ')';
         }
-
-        $selectFields = $this->computeSelectFields($filterToTableMapping);
-        $whereConditions = $this->computeWhereConditions($filterToTableMapping);
-        $joinConditions = $this->computeJoinConditions($filterToTableMapping);
-        $groupFields = $this->computeGroupByFields($filterToTableMapping);
 
         $query = 'SELECT ' . implode(', ', $selectFields) . ' FROM ' . $referenceTable . ' p';
 
@@ -134,10 +133,6 @@ class MySQL extends AbstractAdapter
             if ($orderField !== 'p.id_product') {
                 $query .= ', p.id_product DESC';
             }
-        }
-
-        if ($this->limit !== null) {
-            $query .= ' LIMIT ' . $this->offset . ', ' . $this->limit;
         }
 
         return $query;
@@ -327,7 +322,7 @@ class MySQL extends AbstractAdapter
                     (sp.from = \'0000-00-00 00:00:00\' OR \'' . date('Y-m-d H:i:s') . '\' >= sp.from) AND 
                     (sp.to = \'0000-00-00 00:00:00\' OR \'' . date('Y-m-d H:i:s') . '\' <= sp.to) 
                 )',
-                'joinType' => self::INNER_JOIN,
+                'joinType' => self::LEFT_JOIN,
             ],
         ];
 
@@ -588,7 +583,6 @@ class MySQL extends AbstractAdapter
                 $idTmpFilteredProducts = [];
                 $mysqlAdapter = $this->getFilteredSearchAdapter();
                 $mysqlAdapter->addSelectField('id_product');
-                $mysqlAdapter->setLimit(null);
                 $mysqlAdapter->setOrderField('');
                 $mysqlAdapter->addFilter($filterName, $filterValues, $operator);
                 $idProducts = $mysqlAdapter->execute();
@@ -745,7 +739,6 @@ class MySQL extends AbstractAdapter
         $mysqlAdapter = $this->getFilteredSearchAdapter();
         $mysqlAdapter->copyFilters($this);
         $mysqlAdapter->setSelectFields(['MIN(' . $fieldName . ') as min, MAX(' . $fieldName . ') as max']);
-        $mysqlAdapter->setLimit(null);
         $mysqlAdapter->setOrderField('');
 
         $result = $mysqlAdapter->execute();
@@ -778,7 +771,6 @@ class MySQL extends AbstractAdapter
         }
 
         $this->addSelectField('COUNT(DISTINCT p.id_product) c');
-        $this->setLimit(null);
         $this->setOrderField('');
 
         $this->copyOperationsFilters();
@@ -791,8 +783,7 @@ class MySQL extends AbstractAdapter
      */
     public function useFiltersAsInitialPopulation()
     {
-        // Initial population has NO LIMIT and no ORDER BY
-        $this->setLimit(null);
+        // Initial population has no ORDER BY
         $this->setOrderField('');
 
         // We add basic select fields we will need to matter what
@@ -805,6 +796,8 @@ class MySQL extends AbstractAdapter
                 'weight',
                 'price',
                 'sales',
+                'on_sale',
+                'date_add',
             ]
         );
 

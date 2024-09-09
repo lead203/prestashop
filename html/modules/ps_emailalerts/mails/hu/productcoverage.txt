@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Szia,
+
+A készlet lefedettség most már kevesebb, mint a beállított minimum: {warning_coverage}
+
+Jelenlegi készletlefedettség: {current_coverage}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

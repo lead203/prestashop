@@ -1,0 +1,13 @@
+ 
+
+{shop_url}
+
+Kedves {lastname} {firstname}!
+
+{reply}
+
+Ne válaszolj direktben erre az emailre, nem fogjuk megkapni. Válaszolni a következő hivatkozáson keresztül tudsz: {link}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

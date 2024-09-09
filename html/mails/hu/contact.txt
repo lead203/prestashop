@@ -1,0 +1,19 @@
+ 
+
+{shop_url}
+
+Üzenet {shop_name} vásárlójától
+
+Vásárló email címe: {email}
+
+Rendelésazonosító #:  {order_name}
+
+Csatolt fájl: {attached_file}
+
+Vásárlói üzenet:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)

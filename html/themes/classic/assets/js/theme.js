@@ -394,3 +394,103 @@ t().blockcart=t().blockcart||{},t().blockcart.showModal=e=>{function n(){return 
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  */
 for(const e in b().prototype)t()[e]=b().prototype[e];i()(document).ready((()=>{const e=i()(".js-dropdown"),t=new x,n=i()('.js-top-menu ul[data-depth="0"]'),r=new w(e),o=new E(n),s=new l,a=new c;r.init(),t.init(),o.init(),s.init(),a.init(),T(".field-password-policy"),i()('.carousel[data-touch="true"]').swipe({swipe(e,t){"left"===t&&i()(this).carousel("next"),"right"===t&&i()(this).carousel("prev")},allowPageScroll:"vertical"})}))}()}();
+
+// 
+
+$('#field-address1').closest('.form-group').find('.form-control-comment').hide();
+
+$('#field-phone').closest('.form-group').find('.form-control-comment').text('Optional');
+
+$('#field-address2').closest('.form-group').find('.form-control-comment').text('Optional');
+
+$('#exportDataToCsv').on('click', function(e) {
+	e.preventDefault();
+});
+
+$('#emailsalerts').on('click', function(e) {
+	e.preventDefault();
+});
+
+$('#_desktop_currency_selector').find('.btn-unstyle').on('click', function(e) {
+	$('#_desktop_currency_selector').find('.dropdown-menu').css({'opacity':'0'})
+});
+
+$('.product-add-to-cart').find('.add-to-cart').html('<i class="material-icons shopping-cart"></i> Add to cart');
+
+$('a[data-link-action="delete-address"]').on('click', function(e) {
+	e.preventDefault();
+});
+
+$('#checkout-personal-information-step').find('a').on('click', function(e) {
+	e.preventDefault();
+});
+
+$('#delivery_message').on('keydown', function(e) {
+	e.preventDefault();
+});
+
+setTimeout(() => {
+	$('label[for="file-upload"]').attr('for', 'empty');
+}, 3000)
+
+$('.pagination').find('div').first().text('Showing 1-87 of 100500 item(s)');
+
+// 
+
+const facetLabels = $('.facet-label');
+
+facetLabels.each((index, label) => {
+    if ($(label).find('.color').length) {
+    	// $(label).find('a').on('click', function(e) {
+    	// 	e.preventDefault();
+    	// 	console.log(123);
+    	// 	$(label).find('a').first().attr('href', '#')
+    	// })
+    	$(label).find('a').first().attr('href', '#')
+        console.log($(label).find('a').first().attr('href'));
+    }
+});
+
+// 
+
+
+$('.social-sharing').find('li').each((index, li) => {
+    if ($(li).hasClass('facebook')) {
+    	$(li).find('a').attr('href', '#')
+    }
+});
+
+setTimeout(() => {
+	$($('.sort-by-row').find('.dropdown-menu').find('a')[2]).attr('href', '#')
+	$($('.sort-by-row').find('.dropdown-menu').find('a')[3]).attr('href', '#')
+}, 2000)
+
+setTimeout(() => {
+    $('#search_filters_wrapper').find('a').each(function() {
+        let link = $(this).attr('href');
+        if (link) {
+            let updatedLink = link.replace('/uk/', '/en/')
+                                  .replace('/hu/', '/en/')
+                                  .replace('/de/', '/en/');
+            $(this).attr('href', updatedLink);
+        }
+    });
+
+    // http://ec2-18-157-81-67.eu-central-1.compute.amazonaws.com/en/9-art
+
+
+	$($('.category-top-menu').find('a')[1]).attr('href', '/en/9-art')
+}, 300);
+
+
+
+
+
+
+
+
+
+
+
+
+

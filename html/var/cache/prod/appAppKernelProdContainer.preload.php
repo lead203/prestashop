@@ -10,7 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).'/vendor/autoload.php';
-require __DIR__.'/ContainerHbU1FCJ/appAppKernelProdContainer.php';
+require __DIR__.'/ContainerZpsa69u/appAppKernelProdContainer.php';
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -103,6 +103,7 @@ $classes[] = 'PrestaShopBundle\Controller\Admin\Improve\Shipping\PreferencesCont
 $classes[] = 'PrestaShopBundle\Controller\Admin\MultistoreController';
 $classes[] = 'PrestaShopBundle\Controller\Admin\ProductController';
 $classes[] = 'PrestaShopBundle\Controller\Admin\ProductImageController';
+$classes[] = 'PrestaShopBundle\Controller\Admin\SecuredFileReaderController';
 $classes[] = 'PrestaShopBundle\Controller\Admin\SecurityController';
 $classes[] = 'PrestaShopBundle\Controller\Admin\Sell\Address\AddressController';
 $classes[] = 'PrestaShopBundle\Controller\Admin\Sell\Catalog\AttachmentController';
@@ -176,8 +177,11 @@ $classes[] = 'PrestaShopBundle\Form\Admin\Sell\Product\Pricing\SpecificPriceType
 $classes[] = 'PrestaShopBundle\Form\Admin\Sell\Product\EventListener\SpecificPriceCombinationListener';
 $classes[] = 'PrestaShopBundle\Form\Admin\Sell\Product\Stock\VirtualProductFileType';
 $classes[] = 'PrestaShopBundle\Form\Admin\Type\AmountCurrencyType';
+$classes[] = 'PrestaShopBundle\Form\Admin\Type\ApeType';
 $classes[] = 'PrestaShopBundle\Form\Admin\Type\FormattedTextareaType';
 $classes[] = 'PrestaShopBundle\Form\Admin\Type\ReorderPositionsButtonType';
+$classes[] = 'PrestaShopBundle\Form\Extension\IntegerTypeExtension';
+$classes[] = 'PrestaShopBundle\Form\Extension\NumberTypeExtension';
 $classes[] = 'PrestaShopBundle\Security\Admin\SessionRenewer';
 $classes[] = 'PrestaShopBundle\Utils\FloatParser';
 $classes[] = 'PrestaShop\Module\BlockWishList\Controller\WishlistConfigurationAdminController';
@@ -405,6 +409,7 @@ $classes[] = 'PrestaShop\PrestaShop\Core\Hook\HookDispatcher';
 $classes[] = 'PrestaShop\PrestaShop\Core\Image\AvifExtensionChecker';
 $classes[] = 'PrestaShop\PrestaShop\Core\Image\ImageFormatConfiguration';
 $classes[] = 'PrestaShop\PrestaShop\Core\Localization\Locale\Repository';
+$classes[] = 'PrestaShop\PrestaShop\Core\Localization\Number\LocaleNumberTransformer';
 $classes[] = 'PrestaShop\PrestaShop\Core\Module\SourceHandler\RemoteZipSourceHandler';
 $classes[] = 'PrestaShop\PrestaShop\Core\Module\SourceHandler\SourceHandlerFactory';
 $classes[] = 'PrestaShop\PrestaShop\Core\Product\Combination\Generator\CombinationGenerator';
@@ -652,8 +657,9 @@ $classes[] = 'PrestaShop\CircuitBreaker\AdvancedCircuitBreakerFactory';
 $classes[] = 'PrestaShop\CircuitBreaker\FactorySettings';
 $classes[] = 'GuzzleHttp\HandlerStack';
 $classes[] = 'PrestaShop\Module\DistributionApiClient\Middleware\Cache';
-$classes[] = 'Symfony\Component\Cache\DoctrineProvider';
+$classes[] = 'Doctrine\Common\Cache\Psr6\DoctrineProvider';
 $classes[] = 'PrestaShop\Module\DistributionApiClient\ShopDataProvider';
+$classes[] = 'Symfony\Component\Cache\DoctrineProvider';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Command\Proxy\ClearMetadataCacheDoctrineCommand';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Command\Proxy\ClearQueryCacheDoctrineCommand';
 $classes[] = 'Doctrine\Bundle\DoctrineBundle\Command\Proxy\ClearResultCacheDoctrineCommand';
@@ -2179,6 +2185,8 @@ $classes[] = 'PrestaShopBundle\EventListener\UserLocaleListener';
 $classes[] = 'PrestaShopBundle\Service\DataProvider\UserProvider';
 $classes[] = 'PrestaShopBundle\Utils\ZipManager';
 $classes[] = 'PrestaShop\PrestaShop\Core\ConstraintValidator\UniqueStateIsoCodeValidator';
+$classes[] = 'PrestaShop\Module\ProductComment\Form\ProductCommentCriterionFormDataHandler';
+$classes[] = 'PrestaShop\Module\ProductComment\Form\ProductCommentCriterionFormDataProvider';
 $classes[] = 'PrestaShop\Module\ProductComment\Repository\ProductCommentCriterionRepository';
 $classes[] = 'PrestaShop\Module\ProductComment\Repository\ProductCommentRepository';
 $classes[] = 'Symfony\Component\PropertyInfo\PropertyInfoCacheExtractor';

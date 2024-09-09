@@ -1,0 +1,4 @@
+*ERROR* 	v8.1.7	2024/08/22 - 15:46:41: The length of property Customer-&amp;gt;passwd is currently 60 chars. It must be between 0 and 1 chars. at line 1104 in file classes/ObjectModel.php
+*ERROR* 	v8.1.7	2024/08/22 - 15:47:30: The length of property Customer-&amp;gt;passwd is currently 60 chars. It must be between 0 and 1 chars. at line 1104 in file classes/ObjectModel.php
+*ERROR* 	v8.1.7	2024/08/22 - 15:48:33: The length of property Customer-&amp;gt;passwd is currently 60 chars. It must be between 0 and 1 chars. at line 1104 in file classes/ObjectModel.php
+*ERROR* 	v8.1.7	2024/08/22 - 15:48:37: The length of property Customer-&amp;gt;passwd is currently 60 chars. It must be between 0 and 1 chars. at line 1104 in file classes/ObjectModel.php

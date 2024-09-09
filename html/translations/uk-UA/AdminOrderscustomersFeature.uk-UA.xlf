@@ -198,11 +198,6 @@
         <target state="final">Дивіться більше</target>
         <note>Line: 35</note>
       </trans-unit>
-      <trans-unit id="d1228f5476d15142b1358ae4b5fa2454" approved="yes">
-        <source>Order #</source>
-        <target state="final">№ замовлення</target>
-        <note>Line: 32</note>
-      </trans-unit>
     </body>
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/helpers/view/view.tpl" source-language="en" target-language="uk" datatype="plaintext">
@@ -246,6 +241,11 @@
   </file>
   <file original="admin-dev/themes/default/template/controllers/customer_threads/message.tpl" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="d1228f5476d15142b1358ae4b5fa2454" approved="yes">
+        <source>Order #</source>
+        <target state="final">№ замовлення</target>
+        <note>Line: 77</note>
+      </trans-unit>
       <trans-unit id="cb8fe83175bea4ba19d633b1dc6ea656" approved="yes">
         <source>View order</source>
         <target state="final">Переглянути замовлення</target>
@@ -565,41 +565,7 @@ Best regards,</source>
       <trans-unit id="4d9e1e12ad8a61ea2a5554407488d91a" approved="yes">
         <source>Net Profit per Visitor</source>
         <target state="final">Чистий прибуток на відвідувача</target>
-        <note>Line: 209</note>
-      </trans-unit>
-      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
-        <source>Free Shipping</source>
-        <target state="final">Безкоштовна доставка</target>
-        <note>Line: 626</note>
-      </trans-unit>
-      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
-        <source>%amount% tax excl.</source>
-        <target state="final">%amount% без ПДВ</target>
-        <note>Line: 198</note>
-      </trans-unit>
-      <trans-unit id="50cc07e9963519545552b1ac2c5f7a1e" approved="yes">
-        <source>Cart #%ID%</source>
-        <target state="final">Кошик №%ID%</target>
-        <note>Line: 303</note>
-      </trans-unit>
-      <trans-unit id="50fc7089c47d74f86c38d1ff30f9b4ce" approved="yes">
-        <source>Total cart</source>
-        <target state="final">Сума кошика</target>
-        <note>Line: 302</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="controllers/admin/AdminImportController.php" source-language="en" target-language="uk" datatype="plaintext">
-    <body>
-      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
-        <source>VAT number</source>
-        <target state="final">Номер платника ПДВ</target>
-        <note>Line: 445</note>
-      </trans-unit>
-      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
-        <source>Identification number</source>
-        <target state="final">Ідентифікаційний номер</target>
-        <note>Line: 446</note>
+        <note>Line: 208</note>
       </trans-unit>
     </body>
   </file>
@@ -615,16 +581,6 @@ Best regards,</source>
         <target state="final">Префікс повернень</target>
         <note>Line: 70</note>
       </trans-unit>
-      <trans-unit id="bfc23574a242be4531bcb29877ac1d8a" approved="yes">
-        <source>Return Merchandise Authorization (RMA)</source>
-        <target state="final">Запит на Повернення Товару (ЗПТ)</target>
-        <note>Line: 88</note>
-      </trans-unit>
-      <trans-unit id="f504da64aae2dcfd85ce565121248f93" approved="yes">
-        <source>Customer explanation</source>
-        <target state="final">Пояснення покупця</target>
-        <note>Line: 116</note>
-      </trans-unit>
       <trans-unit id="6d72e074fdface4ae892543d39434175" approved="yes">
         <source>Returns form</source>
         <target state="final">Форма повернення</target>
@@ -634,16 +590,6 @@ Best regards,</source>
         <source>Order #%id% from %date%</source>
         <target state="final">Замовлення №%id% від %date%</target>
         <note>Line: 189</note>
-      </trans-unit>
-      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
-        <source>Date issued</source>
-        <target state="final">Дата відправки</target>
-        <note>Line: 52</note>
-      </trans-unit>
-      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
-        <source>Enable returns</source>
-        <target state="final">Увімкнути повернення</target>
-        <note>Line: 60</note>
       </trans-unit>
     </body>
   </file>
@@ -670,7 +616,16 @@ Best regards,</source>
       <trans-unit id="ffb7e666a70151215b4c55c6268d7d72" approved="yes">
         <source>Newsletter</source>
         <target state="final">Розсилка</target>
-        <note>Line: 1425</note>
+        <note>Line: 1428</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Cart/CommandHandler/UpdateCartDeliverySettingsHandler.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="b00b85425e74ed2c85dc3119b78ff2c3" approved="yes">
+        <source>Free Shipping</source>
+        <target state="final">Безкоштовна доставка</target>
+        <note>Line: 133</note>
       </trans-unit>
     </body>
   </file>
@@ -694,6 +649,15 @@ Best regards,</source>
         <source>Average Age</source>
         <target state="final">Середній вік</target>
         <note>Line: 74</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/Adapter/Kpi/AverageOrderValueKpi.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="272c853e39b8c65c81afd3661a8fd17f" approved="yes">
+        <source>%amount% tax excl.</source>
+        <target state="final">%amount% без ПДВ</target>
+        <note>Line: 55</note>
       </trans-unit>
     </body>
   </file>
@@ -731,6 +695,11 @@ Best regards,</source>
   </file>
   <file original="src/Adapter/Kpi/ShoppingCartTotalKpi.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="50cc07e9963519545552b1ac2c5f7a1e" approved="yes">
+        <source>Cart #%ID%</source>
+        <target state="final">Кошик №%ID%</target>
+        <note>Line: 72</note>
+      </trans-unit>
       <trans-unit id="0b91ef9198a761459c595de4b12ca109" approved="yes">
         <source>Total Cart</source>
         <target state="final">Сума кошика</target>
@@ -788,6 +757,15 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
+  <file original="src/Core/Grid/Definition/Factory/CreditSlipGridDefinitionFactory.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="446faa7da2d42ba4ffeda73cb119dd91" approved="yes">
+        <source>Date issued</source>
+        <target state="final">Дата відправки</target>
+        <note>Line: 100</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/Core/Grid/Definition/Factory/CustomerAddressGridDefinitionFactory.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
       <trans-unit id="e174c1b711f254d538c689a90c5842a5" approved="yes">
@@ -803,20 +781,6 @@ Best regards,</source>
         <source>Qty available</source>
         <target state="final">Доступна кількість</target>
         <note>Line: 104</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/Core/Grid/Definition/Factory/CustomerGridDefinitionFactory.php" source-language="en" target-language="uk" datatype="plaintext">
-    <body>
-      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
-        <source>Registration</source>
-        <target state="final">Реєстрація</target>
-        <note>Line: 222</note>
-      </trans-unit>
-      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
-        <source>Last visit</source>
-        <target state="final">Останнє відвідування</target>
-        <note>Line: 230</note>
       </trans-unit>
     </body>
   </file>
@@ -836,11 +800,6 @@ Best regards,</source>
         <source>It looks like you have exceeded the number of tabs allowed. Check your browser settings to open multiple tabs.</source>
         <target state="final">Схоже, ви перевищили дозволену кількість вкладок. Перевірте налаштування браузера, щоб відкрити кілька вкладок.</target>
         <note>Line: 449</note>
-      </trans-unit>
-      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
-        <source>New client</source>
-        <target state="final">Новий клієнт</target>
-        <note>Line: 195</note>
       </trans-unit>
     </body>
   </file>
@@ -865,10 +824,29 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Customer/CustomerController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="0f98b7f230f3c91292f0de4c99e263f2" approved="yes">
+        <source>Registration</source>
+        <target state="final">Реєстрація</target>
+        <note>Line: 805</note>
+      </trans-unit>
+      <trans-unit id="5e5914912e8d2f2765525840acf98bea" approved="yes">
+        <source>Last visit</source>
+        <target state="final">Останнє відвідування</target>
+        <note>Line: 806</note>
+      </trans-unit>
       <trans-unit id="f0c7cdb1b872477a4c31bca923127c54" approved="yes">
         <source>You can use this feature in a single shop context only. Switch context to enable it.</source>
         <target state="final">Ви можете використовувати цю функцію лише в контексті одного магазину. Виберіть один магазин, щоб увімкнути її.</target>
         <note>Line: 1025</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Controller/Admin/Sell/CustomerService/MerchandiseReturnController.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="bfc23574a242be4531bcb29877ac1d8a" approved="yes">
+        <source>Return Merchandise Authorization (RMA)</source>
+        <target state="final">Запит на Повернення Товару (ЗПТ)</target>
+        <note>Line: 126</note>
       </trans-unit>
     </body>
   </file>
@@ -883,6 +861,11 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Controller/Admin/Sell/Order/OrderController.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="94003250a2187a9f51b227b490e5ab6b" approved="yes">
+        <source>New client</source>
+        <target state="final">Новий клієнт</target>
+        <note>Line: 367</note>
+      </trans-unit>
       <trans-unit id="e5d61db40a917c78a9d8e821dd0dd8de" approved="yes">
         <source>Add new order</source>
         <target state="final">Додати нове замовлення</target>
@@ -907,6 +890,16 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/Address/CustomerAddressType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="7cb32e708d6b961d476baced73d362bb" approved="yes">
+        <source>VAT number</source>
+        <target state="final">Номер платника ПДВ</target>
+        <note>Line: 258</note>
+      </trans-unit>
+      <trans-unit id="b60bb13a87fe3ae5463aeb0980a5a8a1" approved="yes">
+        <source>Identification number</source>
+        <target state="final">Ідентифікаційний номер</target>
+        <note>Line: 137</note>
+      </trans-unit>
       <trans-unit id="03361eda68f746619c2ae3341eaa2f07" approved="yes">
         <source>Customer email</source>
         <target state="final">E-mail клієнта</target>
@@ -944,22 +937,22 @@ Best regards,</source>
       <trans-unit id="15bbb9d0bbf25e8d2978de1168c749dc" approved="yes">
         <source>Website</source>
         <target state="final">Вебсайт</target>
-        <note>Line: 316</note>
+        <note>Line: 310</note>
       </trans-unit>
       <trans-unit id="6e55ad8db6699476d8901b3d439963cb" approved="yes">
         <source>Allowed outstanding amount</source>
         <target state="final">Дозволена зависла сума</target>
-        <note>Line: 320</note>
+        <note>Line: 314</note>
       </trans-unit>
       <trans-unit id="a7f50f36de1e47026a07b40670b50e1a" approved="yes">
         <source>Maximum number of payment days</source>
         <target state="final">Найбільший термін для оплати</target>
-        <note>Line: 333</note>
+        <note>Line: 327</note>
       </trans-unit>
       <trans-unit id="b5228365ac1cae42b64aa5aecee6cf25" approved="yes">
         <source>Risk rating</source>
         <target state="final">Клас ризику</target>
-        <note>Line: 363</note>
+        <note>Line: 357</note>
       </trans-unit>
     </body>
   </file>
@@ -983,6 +976,11 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/MerchandiseReturnOptionsType.php" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="f374280fc7cab62785714cfca79b85a1" approved="yes">
+        <source>Enable returns</source>
+        <target state="final">Увімкнути повернення</target>
+        <note>Line: 54</note>
+      </trans-unit>
       <trans-unit id="53f2da10b8b14a1db85d28656a4cc489" approved="yes">
         <source>Return window</source>
         <target state="final">Період повернення</target>
@@ -992,6 +990,15 @@ Best regards,</source>
         <source>Return prefix</source>
         <target state="final">Префікс повернень</target>
         <note>Line: 77</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Form/Admin/Sell/CustomerService/MerchandiseReturn/OrderReturnType.php" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="f504da64aae2dcfd85ce565121248f93" approved="yes">
+        <source>Customer explanation</source>
+        <target state="final">Пояснення покупця</target>
+        <note>Line: 90</note>
       </trans-unit>
     </body>
   </file>
@@ -1181,7 +1188,8 @@ Best regards,</source>
       <trans-unit id="0470d45929f27e1161330164c423b415" approved="yes">
         <source>Set required fields for this section</source>
         <target state="final">Встановіть обов'язкові поля для цього розділу</target>
-        <note>Line: 37</note>
+        <note>Line: 37
+Comment: Recommended modules will be attached to here.</note>
       </trans-unit>
     </body>
   </file>
@@ -1464,12 +1472,98 @@ Best regards,</source>
       </trans-unit>
     </body>
   </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Cart/Blocks/View/customer_information.html.twig" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="3075c1e787e1a14c30ce5c06119dcb07" approved="yes">
+        <source>Account creation date:</source>
+        <target state="final">Дата створення акаунту:</target>
+        <note>Line: 51</note>
+      </trans-unit>
+      <trans-unit id="1cbaf86146febe6915dfd2ee42096595" approved="yes">
+        <source>Number of orders:</source>
+        <target state="final">Кількість замовлень:</target>
+        <note>Line: 56</note>
+      </trans-unit>
+      <trans-unit id="064591b2672fd61bdbdb4043ba5303a6" approved="yes">
+        <source>Amount spent:</source>
+        <target state="final">Витрачена сума:</target>
+        <note>Line: 61</note>
+      </trans-unit>
+      <trans-unit id="c4d634173cf078f7b8ac440267ebddea" approved="yes">
+        <source>Write an email</source>
+        <target state="final">Написати листа</target>
+        <note>Line: 71</note>
+      </trans-unit>
+      <trans-unit id="614ec5c7d243315c0dd878e54b5eebbe" approved="yes">
+        <source>No customer information available yet.</source>
+        <target state="final">Інформація про клієнта поки що недоступна.</target>
+        <note>Line: 75</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Cart/Blocks/View/order_information.html.twig" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="129d8ca8855741ec13502926c48242fa" approved="yes">
+        <source>Cart information</source>
+        <target state="final">Інформація про кошик</target>
+        <note>Line: 27</note>
+      </trans-unit>
+      <trans-unit id="5cf56e792ddebc9108d9ce6011ee1b33" approved="yes">
+        <source>Created:</source>
+        <target state="final">Створено:</target>
+        <note>Line: 30</note>
+      </trans-unit>
+      <trans-unit id="415e32b1378ae1136a9b0d236c6f6c60" approved="yes">
+        <source>Last updated:</source>
+        <target state="final">Останнє оновлення:</target>
+        <note>Line: 34</note>
+      </trans-unit>
+      <trans-unit id="01d9530b501429d195e0e67d1e247444" approved="yes">
+        <source>Order %orderid% was created from this cart on %orderdate%.</source>
+        <target state="final">Замовлення %orderid% було створено з цього кошика %orderdate%.</target>
+        <note>Line: 40</note>
+      </trans-unit>
+      <trans-unit id="fe7a33568dae84b23e36b913f23363c5" approved="yes">
+        <source>The customer has not proceeded to checkout yet.</source>
+        <target state="final">Клієнт ще не перейшов до оформлення замовлення.</target>
+        <note>Line: 50</note>
+      </trans-unit>
+      <trans-unit id="1c590347506b8083685d0aa753598513" approved="yes">
+        <source>Create an order from this cart</source>
+        <target state="final">Створити замовлення з цього кошика</target>
+        <note>Line: 55</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Cart/view.html.twig" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="af2f39ea5ad104652ba18deab13336b5" approved="yes">
+        <source>Share this cart</source>
+        <target state="final">Поділіться цим кошиком</target>
+        <note>Line: 57</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/credit_slip_options.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
       <trans-unit id="44180a771d7f3bf534550199c3293441" approved="yes">
         <source>Credit slip options</source>
         <target state="final">Налаштування кредитної квитанції</target>
         <note>Line: 37</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/CreditSlip/Blocks/pdf_by_date.html.twig" source-language="en" target-language="uk" datatype="plaintext">
+    <body>
+      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
+        <source>By date</source>
+        <target state="final">За датою</target>
+        <note>Line: 36</note>
+      </trans-unit>
+      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
+        <source>Generate PDF file by date</source>
+        <target state="final">Згенерувати файл PDF за датою</target>
+        <note>Line: 50</note>
       </trans-unit>
     </body>
   </file>
@@ -1489,20 +1583,6 @@ Best regards,</source>
         <source>Delivery slip options</source>
         <target state="final">Опції транспортної накладної</target>
         <note>Line: 60</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Invoices/Blocks/generate_by_date.html.twig" source-language="en" target-language="uk" datatype="plaintext">
-    <body>
-      <trans-unit id="9a0a4f0869ab12a21407047290750e7a" approved="yes">
-        <source>By date</source>
-        <target state="final">За датою</target>
-        <note>Line: 34</note>
-      </trans-unit>
-      <trans-unit id="1f0a7c7f8461359ede310318e3d44cd8" approved="yes">
-        <source>Generate PDF file by date</source>
-        <target state="final">Згенерувати файл PDF за датою</target>
-        <note>Line: 57</note>
       </trans-unit>
     </body>
   </file>
@@ -1629,7 +1709,7 @@ Best regards,</source>
     <body>
       <trans-unit id="0d9175fe89fb80d815e7d03698b6e83a" approved="yes">
         <source>Gift</source>
-        <target state="final">Подарунок</target>
+        <target state="final">Подарункова упаковка</target>
         <note>Line: 78</note>
       </trans-unit>
       <trans-unit id="19dfe063714422004b75043eaf74c9b8" approved="yes">
@@ -1646,6 +1726,11 @@ Best regards,</source>
         <source>Gift message</source>
         <target state="final">Повідомлення до подарунку</target>
         <note>Line: 93</note>
+      </trans-unit>
+      <trans-unit id="1a747e98fba823d6be62189cbac46dcb" approved="yes">
+        <source>Recycled packaging</source>
+        <target state="final">Упаковка із вторинної сировини</target>
+        <note>Line: 64</note>
       </trans-unit>
     </body>
   </file>
@@ -1777,11 +1862,6 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/details.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
-      <trans-unit id="1a747e98fba823d6be62189cbac46dcb" approved="yes">
-        <source>Recycled packaging</source>
-        <target state="final">Упаковка із вторинної сировини</target>
-        <note>Line: 117</note>
-      </trans-unit>
       <trans-unit id="f28128b38efbc6134dc40751ee21fd29" approved="yes">
         <source>Documents</source>
         <target state="final">Документи</target>
@@ -1844,11 +1924,6 @@ Best regards,</source>
         <source>Resend email</source>
         <target state="final">Повторно надіслати</target>
         <note>Line: 50</note>
-      </trans-unit>
-      <trans-unit id="f5359d1dd07def542aa9b0577fb27068" approved="yes">
-        <source>Update status</source>
-        <target state="final">Оновити статус</target>
-        <note>Line: 66</note>
       </trans-unit>
     </body>
   </file>
@@ -1940,11 +2015,6 @@ Best regards,</source>
         <target state="final">Роздрукувати замовлення</target>
         <note>Line: 81</note>
       </trans-unit>
-      <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
-        <source>Partial refund</source>
-        <target state="final">Часткове повернення</target>
-        <note>Line: 121</note>
-      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/payments.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -1998,6 +2068,11 @@ Best regards,</source>
         <target state="final">Артикул постачальника:</target>
         <note>Line: 44</note>
       </trans-unit>
+      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
+        <source>Refunded</source>
+        <target state="final">Відмінено</target>
+        <note>Line: 70</note>
+      </trans-unit>
     </body>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/View/products.html.twig" source-language="en" target-language="uk" datatype="plaintext">
@@ -2007,10 +2082,10 @@ Best regards,</source>
         <target state="final">Додати товар</target>
         <note>Line: 154</note>
       </trans-unit>
-      <trans-unit id="cc61945cbbf46721a053467c395c666f" approved="yes">
-        <source>Refunded</source>
-        <target state="final">Відмінено</target>
-        <note>Line: 79</note>
+      <trans-unit id="77fd2b4393b379bedd30efcd5df02090" approved="yes">
+        <source>Partial refund</source>
+        <target state="final">Часткове повернення</target>
+        <note>Line: 99</note>
       </trans-unit>
       <trans-unit id="d9c66f411da5faef9c46d5b679214ae1" approved="yes">
         <source>Add a discount</source>
@@ -2059,6 +2134,11 @@ Best regards,</source>
   </file>
   <file original="src/PrestaShopBundle/Resources/views/Admin/Sell/Order/Order/Blocks/change_orders_status_modal.html.twig" source-language="en" target-language="uk" datatype="plaintext">
     <body>
+      <trans-unit id="f5359d1dd07def542aa9b0577fb27068" approved="yes">
+        <source>Update status</source>
+        <target state="final">Оновити статус</target>
+        <note>Line: 32</note>
+      </trans-unit>
       <trans-unit id="448e9885f58aad30823ddde9996114d6" approved="yes">
         <source>Choose an order status</source>
         <target state="final">Оберіть статус замовлення</target>

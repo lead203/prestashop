@@ -60,7 +60,7 @@
                 {foreach from=$product.attributes item="property_value" key="property"}
                 <span class="{$property|lower}">{l s='%label%:' sprintf=['%label%' => $property] d='Shop.Theme.Global'}<strong> {$property_value}</strong></span><br>
                 {/foreach}
-                <span class="product-quantity">{l s='Quantity:' d='Shop.Theme.Checkout'}&nbsp;<strong>{$product.cart_quantity}</strong></span>
+                <span class="product-quantity test">{l s='Quantity:' d='Shop.Theme.Checkout'}&nbsp;<strong>45</strong></span>
               </div>
             </div>
           </div>

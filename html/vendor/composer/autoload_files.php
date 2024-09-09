@@ -27,7 +27,7 @@ return array(
     '2cffec82183ee1cea088009cef9a6fc3' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
     'b45b351e6b6f7487d819961fef2fda77' => $vendorDir . '/jakeasmith/http_build_url/src/http_build_url.php',
     '791bc9d387c38507eb1a5356530d6424' => $vendorDir . '/prestashop/laminas-code-lts/polyfill/ReflectionEnumPolyfill.php',
-    '72280e2fa915e603a1f900c17186d14b' => $vendorDir . '/api-platform/core/src/deprecation.php',
     'e40631d46120a9c38ea139981f8dab26' => $vendorDir . '/ircmaxell/password-compat/lib/password.php',
+    '72280e2fa915e603a1f900c17186d14b' => $vendorDir . '/api-platform/core/src/deprecation.php',
     '877d5940585e94b79d9d1f31ecaeb5fe' => $vendorDir . '/martinlindhe/php-mb-helpers/src/mb_helpers.php',
 );

@@ -716,12 +716,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/blockreassurance' => array(
-            'pretty_version' => 'v5.1.2',
-            'version' => '5.1.2.0',
+            'pretty_version' => 'v5.1.4',
+            'version' => '5.1.4.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/blockreassurance',
             'aliases' => array(),
-            'reference' => 'fce56506ba8a29409faf6fd4763ba7c8bc149d78',
+            'reference' => 'e39663c439e025fe27721b265b0493df6ca3d7e7',
             'dev_requirement' => false,
         ),
         'prestashop/blockwishlist' => array(
@@ -743,30 +743,30 @@
             'dev_requirement' => false,
         ),
         'prestashop/classic' => array(
-            'pretty_version' => '2.1.1',
-            'version' => '2.1.1.0',
+            'pretty_version' => '2.1.3',
+            'version' => '2.1.3.0',
             'type' => 'prestashop-theme',
             'install_path' => __DIR__ . '/../../themes/classic',
             'aliases' => array(),
-            'reference' => '481b7af6c5d5f82b4db05ec4fd747a9cc5ff87e3',
+            'reference' => 'efb5fa7aa2ca2fb856d5f38b720fb6d39f448526',
             'dev_requirement' => false,
         ),
         'prestashop/contactform' => array(
-            'pretty_version' => 'v4.4.1',
-            'version' => '4.4.1.0',
+            'pretty_version' => 'v4.4.2',
+            'version' => '4.4.2.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/contactform',
             'aliases' => array(),
-            'reference' => 'acacee477ed164338f9a3ae64e005815b2eb60fc',
+            'reference' => '98886a82afc2953cb166081e9eaf2872fc457d4d',
             'dev_requirement' => false,
         ),
         'prestashop/dashactivity' => array(
-            'pretty_version' => 'v2.1.0',
-            'version' => '2.1.0.0',
+            'pretty_version' => 'v2.1.1',
+            'version' => '2.1.1.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/dashactivity',
             'aliases' => array(),
-            'reference' => '21e90c2d98dc797e2ce8927e6f6e510ac60a6159',
+            'reference' => 'e604732a897a26d751afac09936bdcb7eb7b9044',
             'dev_requirement' => false,
         ),
         'prestashop/dashgoals' => array(
@@ -779,21 +779,21 @@
             'dev_requirement' => false,
         ),
         'prestashop/dashproducts' => array(
-            'pretty_version' => 'v2.1.3',
-            'version' => '2.1.3.0',
+            'pretty_version' => 'v2.1.4',
+            'version' => '2.1.4.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/dashproducts',
             'aliases' => array(),
-            'reference' => 'dacb40f9c3ddc5e8d14e226e8075eb2825d35907',
+            'reference' => '1e126b6ce089b5ee6c45eb5b87c5534c5348964b',
             'dev_requirement' => false,
         ),
         'prestashop/dashtrends' => array(
-            'pretty_version' => 'v2.1.2',
-            'version' => '2.1.2.0',
+            'pretty_version' => 'v2.1.3',
+            'version' => '2.1.3.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/dashtrends',
             'aliases' => array(),
-            'reference' => 'e2cbdb088241a17118a8c4424b468a36216f8316',
+            'reference' => 'c1661f19edfabbc584c725fecbf0d63d7595866b',
             'dev_requirement' => false,
         ),
         'prestashop/decimal' => array(
@@ -824,12 +824,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/gsitemap' => array(
-            'pretty_version' => 'v4.3.0',
-            'version' => '4.3.0.0',
+            'pretty_version' => 'v4.4.0',
+            'version' => '4.4.0.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/gsitemap',
             'aliases' => array(),
-            'reference' => '06763bb45c7643c92726cb3e43783183b37c3506',
+            'reference' => '2f9f69f9a06d864c7e7ed8a89cdee5d23b2c91ca',
             'dev_requirement' => false,
         ),
         'prestashop/laminas-code-lts' => array(
@@ -844,12 +844,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/pagesnotfound' => array(
-            'pretty_version' => 'v2.0.2',
-            'version' => '2.0.2.0',
+            'pretty_version' => 'v2.0.3',
+            'version' => '2.0.3.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/pagesnotfound',
             'aliases' => array(),
-            'reference' => 'ac5b640daa39356c8ca96679cbe58e83964b41d2',
+            'reference' => 'cf05fc7770f9beff2a5c2f17bdfe2da7652744db',
             'dev_requirement' => false,
         ),
         'prestashop/prestashop' => array(
@@ -862,12 +862,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/productcomments' => array(
-            'pretty_version' => 'v6.0.2',
-            'version' => '6.0.2.0',
+            'pretty_version' => 'v7.0.0',
+            'version' => '7.0.0.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/productcomments',
             'aliases' => array(),
-            'reference' => '03955f7315f97f9d99fd1bd1675b24f0a97e1938',
+            'reference' => '7287476cb44969af58721cb9ad7b5cb89393b2c8',
             'dev_requirement' => false,
         ),
         'prestashop/ps_banner' => array(
@@ -925,12 +925,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/ps_checkpayment' => array(
-            'pretty_version' => 'v2.0.6',
-            'version' => '2.0.6.0',
+            'pretty_version' => 'v2.1.0',
+            'version' => '2.1.0.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_checkpayment',
             'aliases' => array(),
-            'reference' => 'd953dac82fe7f046d96a9f752a645360060957f2',
+            'reference' => '030a828cbcade2b381c8613775bdd4460852158d',
             'dev_requirement' => false,
         ),
         'prestashop/ps_contactinfo' => array(
@@ -997,39 +997,39 @@
             'dev_requirement' => false,
         ),
         'prestashop/ps_distributionapiclient' => array(
-            'pretty_version' => 'v1.1.0',
-            'version' => '1.1.0.0',
+            'pretty_version' => 'v1.1.1',
+            'version' => '1.1.1.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_distributionapiclient',
             'aliases' => array(),
-            'reference' => 'f1d479ff7a4b94657883b988a4b21498460806c1',
+            'reference' => '4db438b616fb26b9281607db436e60f382fb2391',
             'dev_requirement' => false,
         ),
         'prestashop/ps_emailalerts' => array(
-            'pretty_version' => 'v2.4.2',
-            'version' => '2.4.2.0',
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_emailalerts',
             'aliases' => array(),
-            'reference' => 'fa6011032236e48c8cdbc7ba64dd340d737d75ef',
+            'reference' => '62fd97e7c9dcc21b5a9c547dc484ac1d3c191bfd',
             'dev_requirement' => false,
         ),
         'prestashop/ps_emailsubscription' => array(
-            'pretty_version' => 'v2.7.1',
-            'version' => '2.7.1.0',
+            'pretty_version' => 'v2.8.2',
+            'version' => '2.8.2.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_emailsubscription',
             'aliases' => array(),
-            'reference' => '6f0f08ae3b686aa2bd6e2546980ba70d6024c532',
+            'reference' => 'ce4e159df07b75423abf6804938dddb51b37a1fa',
             'dev_requirement' => false,
         ),
         'prestashop/ps_facetedsearch' => array(
-            'pretty_version' => 'v3.13.2',
-            'version' => '3.13.2.0',
+            'pretty_version' => 'v3.16.0',
+            'version' => '3.16.0.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_facetedsearch',
             'aliases' => array(),
-            'reference' => '8e6ed8e88d670ffadf0fa79993f8d255862be191',
+            'reference' => 'c2652b31019180df1fb509270344e82040e4af22',
             'dev_requirement' => false,
         ),
         'prestashop/ps_faviconnotificationbo' => array(
@@ -1042,30 +1042,30 @@
             'dev_requirement' => false,
         ),
         'prestashop/ps_featuredproducts' => array(
-            'pretty_version' => 'v2.1.4',
-            'version' => '2.1.4.0',
+            'pretty_version' => 'v2.1.5',
+            'version' => '2.1.5.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_featuredproducts',
             'aliases' => array(),
-            'reference' => '4f546c142af54779a341c05e021577060d156c4b',
+            'reference' => '7a2af5e20c987821c926ef8a8fdb502dfe07b533',
             'dev_requirement' => false,
         ),
         'prestashop/ps_googleanalytics' => array(
-            'pretty_version' => 'v4.2.2',
-            'version' => '4.2.2.0',
+            'pretty_version' => 'v5.0.2',
+            'version' => '5.0.2.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_googleanalytics',
             'aliases' => array(),
-            'reference' => '7bfdf5f6e88658e7b0f6b5a01cbe384516eb7233',
+            'reference' => '2aa643fe04dafb32d55a80b2835a374031714f1c',
             'dev_requirement' => false,
         ),
         'prestashop/ps_imageslider' => array(
-            'pretty_version' => 'v3.1.3',
-            'version' => '3.1.3.0',
+            'pretty_version' => 'v3.1.4',
+            'version' => '3.1.4.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_imageslider',
             'aliases' => array(),
-            'reference' => '36f848c1943f84f1dc0c41813f07c0e9b70ae8b0',
+            'reference' => '25c86742d2e0d3e1abc778a82f127b04379fa164',
             'dev_requirement' => false,
         ),
         'prestashop/ps_languageselector' => array(
@@ -1078,21 +1078,21 @@
             'dev_requirement' => false,
         ),
         'prestashop/ps_linklist' => array(
-            'pretty_version' => 'v6.0.4',
-            'version' => '6.0.4.0',
+            'pretty_version' => 'v6.0.7',
+            'version' => '6.0.7.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_linklist',
             'aliases' => array(),
-            'reference' => 'f4048a33e3cfc06a76e68d40cb77425103f0124e',
+            'reference' => 'a7696f34e8f56d0746be2d52eb0bb32ffd37985b',
             'dev_requirement' => false,
         ),
         'prestashop/ps_mainmenu' => array(
-            'pretty_version' => 'v2.3.2',
-            'version' => '2.3.2.0',
+            'pretty_version' => 'v2.3.4',
+            'version' => '2.3.4.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_mainmenu',
             'aliases' => array(),
-            'reference' => '48e7ab8e6dfc871c541ffb71f7da659a077b7985',
+            'reference' => 'd6c0dfdad45aa63d5cff86dc20a242804324da50',
             'dev_requirement' => false,
         ),
         'prestashop/ps_newproducts' => array(
@@ -1123,21 +1123,21 @@
             'dev_requirement' => false,
         ),
         'prestashop/ps_shoppingcart' => array(
-            'pretty_version' => 'v2.0.7',
-            'version' => '2.0.7.0',
+            'pretty_version' => 'v3.0.0',
+            'version' => '3.0.0.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_shoppingcart',
             'aliases' => array(),
-            'reference' => 'd3c9c85da712100f31894de6fe13547a5a9e0c8b',
+            'reference' => '6f3845a09f62b13439ad22def1987b1efd28a529',
             'dev_requirement' => false,
         ),
         'prestashop/ps_socialfollow' => array(
-            'pretty_version' => 'v2.3.0',
-            'version' => '2.3.0.0',
+            'pretty_version' => 'v2.3.2',
+            'version' => '2.3.2.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_socialfollow',
             'aliases' => array(),
-            'reference' => '5ec2d68f021fcd26fb0b2a7c124851aa19397aad',
+            'reference' => '2819f3a66da5160374aa91db9025eefecdbd122c',
             'dev_requirement' => false,
         ),
         'prestashop/ps_specials' => array(
@@ -1159,12 +1159,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/ps_themecusto' => array(
-            'pretty_version' => 'v1.2.3',
-            'version' => '1.2.3.0',
+            'pretty_version' => 'v1.2.4',
+            'version' => '1.2.4.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_themecusto',
             'aliases' => array(),
-            'reference' => 'cfea8fa485c61a05755eadb5f9764f12e666f2a8',
+            'reference' => 'f6d61045450d0e238c469b15ce699a694ddcf3f7',
             'dev_requirement' => false,
         ),
         'prestashop/ps_viewedproduct' => array(
@@ -1177,12 +1177,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/ps_wirepayment' => array(
-            'pretty_version' => 'v2.1.3',
-            'version' => '2.1.3.0',
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/ps_wirepayment',
             'aliases' => array(),
-            'reference' => '951906f13fa533bda005342bfea23844e6b719bc',
+            'reference' => '3b75b0c99206b96405248aa82e6a3699dc57993e',
             'dev_requirement' => false,
         ),
         'prestashop/psgdpr' => array(
@@ -1258,21 +1258,21 @@
             'dev_requirement' => false,
         ),
         'prestashop/statscatalog' => array(
-            'pretty_version' => 'v2.0.3',
-            'version' => '2.0.3.0',
+            'pretty_version' => 'v2.0.4',
+            'version' => '2.0.4.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/statscatalog',
             'aliases' => array(),
-            'reference' => 'aa66d122788be439dc4d5810fb460b36ad8f53e0',
+            'reference' => 'ba29de8fc58a0ab1f80af62ee964f65cf371f427',
             'dev_requirement' => false,
         ),
         'prestashop/statscheckup' => array(
-            'pretty_version' => 'v2.0.2',
-            'version' => '2.0.2.0',
+            'pretty_version' => 'v2.0.3',
+            'version' => '2.0.3.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/statscheckup',
             'aliases' => array(),
-            'reference' => 'ef485adc627745c7e0fa25ad8082c6f4b96dc3cf',
+            'reference' => '0535d263a79e3357ea4f0d6dfba5d3cff9044584',
             'dev_requirement' => false,
         ),
         'prestashop/statsdata' => array(
@@ -1312,12 +1312,12 @@
             'dev_requirement' => false,
         ),
         'prestashop/statsproduct' => array(
-            'pretty_version' => 'v2.1.1',
-            'version' => '2.1.1.0',
+            'pretty_version' => 'v2.1.3',
+            'version' => '2.1.3.0',
             'type' => 'prestashop-module',
             'install_path' => __DIR__ . '/../../modules/statsproduct',
             'aliases' => array(),
-            'reference' => '804f5a33ac45e41525613a1c87ff73928a2a4126',
+            'reference' => '56b344e6d8fd303d9e5742b7bd258534ddff3c00',
             'dev_requirement' => false,
         ),
         'prestashop/statsregistrations' => array(
@@ -1529,12 +1529,12 @@
             ),
         ),
         'smarty/smarty' => array(
-            'pretty_version' => 'v4.3.1',
-            'version' => '4.3.1.0',
+            'pretty_version' => 'v4.3.4',
+            'version' => '4.3.4.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../smarty/smarty',
             'aliases' => array(),
-            'reference' => 'e28cb0915b4e3749bf57d4ebae2984e25395cfe5',
+            'reference' => '3931d8f54b8f7a4ffab538582d34d4397ba8daa5',
             'dev_requirement' => false,
         ),
         'soundasleep/html2text' => array(
@@ -1558,25 +1558,25 @@
         'symfony/amazon-mailer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/asset' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/browser-kit' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/cache' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/cache-contracts' => array(
@@ -1594,13 +1594,13 @@
         'symfony/config' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/console' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/contracts' => array(
@@ -1615,25 +1615,25 @@
         'symfony/css-selector' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/debug' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/debug-bundle' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/dependency-injection' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/deprecation-contracts' => array(
@@ -1648,31 +1648,31 @@
         'symfony/doctrine-bridge' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/dom-crawler' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/dotenv' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/error-handler' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/event-dispatcher' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/event-dispatcher-contracts' => array(
@@ -1690,43 +1690,43 @@
         'symfony/expression-language' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/filesystem' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/finder' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/form' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/framework-bundle' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/google-mailer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/http-client' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/http-client-contracts' => array(
@@ -1744,73 +1744,73 @@
         'symfony/http-foundation' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/http-kernel' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/inflector' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/intl' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/ldap' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/lock' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/mailchimp-mailer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/mailer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/mailgun-mailer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/messenger' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/mime' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/monolog-bridge' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/monolog-bundle' => array(
@@ -1825,7 +1825,7 @@
         'symfony/options-resolver' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/polyfill-ctype' => array(
@@ -1921,31 +1921,31 @@
         'symfony/postmark-mailer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/process' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/property-access' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/property-info' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/proxy-manager-bridge' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/psr-http-message-bridge' => array(
@@ -1960,55 +1960,55 @@
         'symfony/routing' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/security' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/security-bundle' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/security-core' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/security-csrf' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/security-guard' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/security-http' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/sendgrid-mailer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/serializer' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/service-contracts' => array(
@@ -2026,7 +2026,7 @@
         'symfony/stopwatch' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/swiftmailer-bundle' => array(
@@ -2039,24 +2039,24 @@
             'dev_requirement' => false,
         ),
         'symfony/symfony' => array(
-            'pretty_version' => 'v4.4.50',
-            'version' => '4.4.50.0',
+            'pretty_version' => 'v4.4.51',
+            'version' => '4.4.51.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/symfony',
             'aliases' => array(),
-            'reference' => '6bc1c2e2506327daa9a2359ec45f7098ca947728',
+            'reference' => '9926d13361941c4a8abef7e8d7cb8a1997409b9f',
             'dev_requirement' => false,
         ),
         'symfony/templating' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/translation' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/translation-contracts' => array(
@@ -2074,61 +2074,61 @@
         'symfony/twig-bridge' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/twig-bundle' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/validator' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/var-dumper' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/var-exporter' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/web-link' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/web-profiler-bundle' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/web-server-bundle' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/workflow' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'symfony/yaml' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v4.4.50',
+                0 => 'v4.4.51',
             ),
         ),
         'tecnickcom/tcpdf' => array(

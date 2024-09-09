@@ -1,0 +1,12 @@
+ 
+
+{shop_url}
+
+Szia,
+
+Köszönjük, hogy feliratkoztál hírlevelünkre. A megerősítéshez nyisd meg az alábbi hivatkozást:
+{verif_url}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop-project.org/)
